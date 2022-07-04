@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-    font: size 200px;
+    font: size 50px;
 
 }
 
@@ -12,14 +12,15 @@ h1 {
     color: orange;
 }
 
-section {
+.container {
     display: flex;
-    margin: 150px;
+    margin-bottom: 100px;
 }
 
 .half-width {
-    width: 50%;
-    padding-left: 2%;
+    width: 45%;
+    margin-left: 5%;
+    padding: 3%;
 
 }
 
@@ -39,10 +40,35 @@ section {
 
 .top-banner {
     background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
 }
 
 .dream-big {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: rightgi;
+    background-position: right;
+}
+
+.exprience-item {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 10px;
+}
+
+#full-stack {
+    border-left: 7px solid tomato;
+
+
+}
+
+#baby-developer {
+    border-left: 7px solid blue;
+
+
 }
